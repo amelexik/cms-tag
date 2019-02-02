@@ -6,7 +6,7 @@ use yii\db\Schema;
 /**
  * Class m190122_125520_table__tag
  */
-class m190122_125520_table__tag extends console\components\Migration
+class m190122_125520_table__tag extends Migration
 {
     /**
      * {@inheritdoc}
