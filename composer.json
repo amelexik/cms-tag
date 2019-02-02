@@ -1,0 +1,39 @@
+{
+  "name": "skeeks/cms-tag",
+  "version": "1.0.1",
+  "description": "Tag for SkeekS CMS",
+  "keywords": [
+    "yii",
+    "skeeks",
+    "framework",
+    "component",
+    "tag"
+  ],
+  "homepage": "https://cms.skeeks.com/",
+  "type": "yii2-extension",
+  "license": "BSD-3-Clause",
+  "authors": [
+    {
+      "name": "Alex Melnik",
+      "email": "amelexik@gmail.com"
+    }
+  ],
+  "require": {
+    "skeeks/cms": "~5.0 || dev-master",
+    "creocoder/yii2-taggable": "~2.0",
+    "2amigos/yii2-selectize-widget": "~1.0"
+  },
+  "autoload": {
+    "psr-4": {
+      "skeeks\\cms\\tag\\": "src/"
+    }
+  },
+  "minimum-stability": "dev",
+  "prefer-stable": true,
+  "extra": {
+    "config-plugin": {
+      "console": "src/config/console.php",
+      "web": "src/config/web.php"
+    }
+  }
+}
