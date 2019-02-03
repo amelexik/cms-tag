@@ -38,8 +38,8 @@ class TagLinks extends \yii\db\ActiveRecord
     public function attributeLabels()
     {
         return [
-            'element_id' => Yii::t('skeeks/tag', 'Element ID'),
-            'tag_id' => Yii::t('skeeks/tag', 'Tag ID'),
+            'element_id' => Yii::t('cms/tag', 'Element ID'),
+            'tag_id' => Yii::t('cms/tag', 'Tag ID'),
         ];
     }
 }

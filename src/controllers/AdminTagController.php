@@ -17,7 +17,7 @@ Class AdminTagController extends AdminModelEditorController
 {
     public function init()
     {
-        $this->name = \Yii::t('skeeks/tag', 'Tag');
+        $this->name = \Yii::t('cms/tag', 'Tag');
         $this->modelShowAttribute = "name";
         $this->modelClassName = Tag::className();
 

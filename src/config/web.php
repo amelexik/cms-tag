@@ -6,7 +6,7 @@ return [
         ],
         'i18n' => [
             'translations' => [
-                'skeeks/tag' => [
+                'cms/tag' => [
                     'class'    => 'yii\i18n\PhpMessageSource',
                     'basePath' => '@skeeks/cms/tag/messages',
                 ]

@@ -14,7 +14,7 @@ class CmsTagComponent extends \skeeks\cms\base\Component
     static public function descriptorConfig()
     {
         return array_merge(parent::descriptorConfig(), [
-            'name' => \Yii::t('skeeks/tag', 'Tags'),
+            'name' => \Yii::t('cms/tag', 'Tags'),
         ]);
     }
 }

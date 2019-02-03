@@ -39,9 +39,9 @@ class Tag extends \yii\db\ActiveRecord
     public function attributeLabels()
     {
         return [
-            'id' => Yii::t('skeeks/tag', 'ID'),
-            'name' => Yii::t('skeeks/tag', 'Name'),
-            'frequency' => Yii::t('skeeks/tag', 'Frequency'),
+            'id' => Yii::t('cms/tag', 'ID'),
+            'name' => Yii::t('cms/tag', 'Name'),
+            'frequency' => Yii::t('cms/tag', 'Frequency'),
         ];
     }
 }
