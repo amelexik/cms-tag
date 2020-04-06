@@ -11,6 +11,11 @@ return [
                     'basePath' => '@skeeks/cms/tag/messages',
                 ]
             ]
+        ],
+        'urlManager' => [
+            'rules' => [
+                'tag/<tag>' => 'tag/tag/index',
+            ]
         ]
     ],
     'modules'    =>

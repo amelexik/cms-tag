@@ -3,7 +3,7 @@
 /* @var $model \skeeks\cms\models\CmsContentElement */
 /* @var $relatedModel \skeeks\cms\relatedProperties\models\RelatedPropertiesModel */
 ?>
-<?= $form->fieldSet(\Yii::t('cms/tag', 'Tags')); ?>
+<?php $fieldSet = $form->fieldSet(\Yii::t('cms/tag', 'Tags')); ?>
 
 <?php
 echo $form->field($model, 'tagValues')->widget(\dosamigos\selectize\SelectizeTextInput::className(), [
@@ -20,4 +20,4 @@ echo $form->field($model, 'tagValues')->widget(\dosamigos\selectize\SelectizeTex
 
 
 
-<?= $form->fieldSetEnd() ?>
+<?php $fieldSet::end(); ?>
