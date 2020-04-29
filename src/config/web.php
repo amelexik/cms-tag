@@ -16,7 +16,22 @@ return [
             'rules' => [
                 'tag/<tag>' => 'tag/tag/index',
             ]
-        ]
+        ],
+        'authManager' => [
+            'config' => [
+                'roles' => [
+                    [
+                        'name'  => \skeeks\cms\rbac\CmsManager::ROLE_ADMIN,
+                        'child' => [
+                            //Есть доступ к системе администрирования
+                            'permissions' => [
+                                "tag/admin-cms-tag",
+                            ],
+                        ],
+                    ],
+                ],
+            ],
+        ],
     ],
     'modules'    =>
         [

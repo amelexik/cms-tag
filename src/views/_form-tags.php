@@ -7,7 +7,7 @@
 
 <?php
 echo $form->field($model, 'tagValues')->widget(\dosamigos\selectize\SelectizeTextInput::className(), [
-    'loadUrl'       => ['/tag/admin-tag/search'],
+    'loadUrl'       => ['/tag/admin-cms-tag/search'],
     'options'       => ['class' => 'form-control'],
     'clientOptions' => [
         'plugins'     => ['remove_button'],
